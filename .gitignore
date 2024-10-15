@@ -1,0 +1,57 @@
+# ---- Python ----
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Virtual environments
+**/env/
+**/venv/
+**/ENV/
+**/.env
+**/.venv
+
+# Distribution / packaging
+**/.Python
+**/*.egg
+**/*.egg-info/
+**/dist/
+**/build/
+**/*.whl
+
+# PyInstaller
+#  Usually these files are written by a python script from a custom bootloader built with PyInstaller
+**/*.manifest
+**/*.spec
+
+# Installer logs
+**/installer.log
+
+# ---- Terraform ----
+# Local .terraform directories
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Terraform crash log files
+**/crash.log
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/terraform.tfvars
+**/.terraform.tfstate.lock.info
+
+# Backup files created by Terraform
+**/*_override.tf
+**/*_override.tf.json
+**/*_plan.tfout
+**/override.tf
+**/override.tf.json
+
+# Ignore Tainting 
+**/.terraform
+
+# Sensitive files
+**/*.tfvars
+**/credentials.tfvars
+**/secrets.tfvars
+
+.DS_Store
